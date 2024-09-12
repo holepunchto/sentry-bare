@@ -1,0 +1,32 @@
+{
+  "name": "bare-sentry",
+  "version": "0.0.1",
+  "description": "Sentry SDK for Bare",
+  "main": "index.js",
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "files": [
+    "index.js",
+    "lib/**.js"
+  ],
+  "scripts": {
+    "lint": "standard"
+  },
+  "dependencies": {
+    "@sentry/core": "8.28.0",
+    "@sentry/utils": "8.28.0",
+    "bare-fetch": "^1.2.0",
+    "bare-os": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-sentry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-sentry/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-sentry#readme"
+}
