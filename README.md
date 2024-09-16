@@ -1,13 +1,13 @@
 # Sentry SDK for Bare
 
 ```
-npm i bare-sentry
+npm i sentry-bare
 ```
 
 ## Usage
 
 ```js
-const Sentry = require('bare-sentry')
+const Sentry = require('sentry-bare')
 
 Sentry.init({ dsn: '__DSN__' })
 

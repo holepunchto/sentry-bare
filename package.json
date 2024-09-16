@@ -1,5 +1,5 @@
 {
-  "name": "bare-sentry",
+  "name": "sentry-bare",
   "version": "0.0.0",
   "description": "Sentry SDK for Bare",
   "exports": {
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/holepunchto/bare-addon-resolve.git"
+    "url": "git+https://github.com/holepunchto/sentry-bare.git"
   },
   "author": "Holepunch",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/holepunchto/bare-addon-resolve/issues"
+    "url": "https://github.com/holepunchto/sentry-bare/issues"
   },
-  "homepage": "https://github.com/holepunchto/bare-addon-resolve#readme",
+  "homepage": "https://github.com/holepunchto/sentry-bare#readme",
   "dependencies": {
     "@sentry/core": "8.28.0",
     "@sentry/utils": "8.28.0",
