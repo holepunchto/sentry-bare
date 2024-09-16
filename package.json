@@ -26,6 +26,7 @@
   "dependencies": {
     "@sentry/core": "8.28.0",
     "@sentry/utils": "8.28.0",
+    "bare-abort": "^2.0.9",
     "bare-fetch": "^1.2.0",
     "bare-os": "^3.0.0"
   },
