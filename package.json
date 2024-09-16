@@ -1,17 +1,28 @@
 {
   "name": "bare-sentry",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Sentry SDK for Bare",
-  "main": "index.js",
-  "author": "Holepunch",
-  "license": "Apache-2.0",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json"
+  },
   "files": [
     "index.js",
-    "lib/**.js"
+    "lib"
   ],
   "scripts": {
-    "lint": "standard"
+    "test": "standard"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-addon-resolve.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-addon-resolve/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-addon-resolve#readme",
   "dependencies": {
     "@sentry/core": "8.28.0",
     "@sentry/utils": "8.28.0",
@@ -20,13 +31,5 @@
   },
   "devDependencies": {
     "standard": "^17.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/holepunchto/bare-sentry.git"
-  },
-  "bugs": {
-    "url": "https://github.com/holepunchto/bare-sentry/issues"
-  },
-  "homepage": "https://github.com/holepunchto/bare-sentry#readme"
+  }
 }

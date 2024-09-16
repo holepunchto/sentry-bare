@@ -2,10 +2,11 @@ const { captureException, captureEvent, captureMessage } = require('@sentry/core
 const { SDK_VERSION } = require('@sentry/utils')
 
 const { BareClient } = require('./lib/client')
-const { contextIntegration } = require('./lib/integrations/context')
-const { globalHandlersIntegration } = require('./lib/integrations/globalhandlers')
 const { init } = require('./lib/sdk')
-const { makeTransport } = require('./lib/transport')
+const { makeFetchTransport } = require('./lib/transport')
+const { contextIntegration } = require('./lib/integrations/context')
+const { onUncaughtExceptionIntegration } = require('./lib/integrations/on-uncaught-exception')
+const { onUnhandledRejectionIntegration } = require('./lib/integrations/on-unhandled-rejection')
 
 module.exports = {
   captureException,
@@ -14,8 +15,9 @@ module.exports = {
   SDK_VERSION,
 
   BareClient,
-  contextIntegration,
-  globalHandlersIntegration,
   init,
-  makeTransport
+  makeFetchTransport,
+  contextIntegration,
+  onUncaughtExceptionIntegration,
+  onUnhandledRejectionIntegration
 }

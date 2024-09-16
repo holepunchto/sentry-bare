@@ -1,16 +1,13 @@
 # Sentry SDK for Bare
 
-```sh
+```
 npm i bare-sentry
 ```
 
 ## Usage
 
 ```js
-// CJS Syntax
 const Sentry = require('bare-sentry')
-// ESM Syntax
-import * as Sentry from 'bare-sentry'
 
 Sentry.init({ dsn: '__DSN__' })
 
