@@ -16,8 +16,9 @@ Sentry.captureException(new Error('test'))
 
 ## Integrations
 
-- Global Handlers (`Bare.on('uncaughtException')`, `Bare.on('unhandledRejection')`)
-- Context (machine, os)
+- `contextIntegration`
+- `onUncaughtExceptionIntegration`
+- `onUnhandledRejectionIntegration`
 
 ## License
 
