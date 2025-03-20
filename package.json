@@ -1,6 +1,6 @@
 {
   "name": "sentry-bare",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sentry SDK for Bare",
   "exports": {
     ".": "./index.js",
