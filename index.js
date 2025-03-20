@@ -67,8 +67,12 @@ const { BareClient } = require('./lib/client')
 const { makeFetchTransport } = require('./lib/transport')
 const { init, getDefaultIntegrations } = require('./lib/sdk')
 const { contextIntegration } = require('./lib/integrations/context')
-const { onUncaughtExceptionIntegration } = require('./lib/integrations/on-uncaught-exception')
-const { onUnhandledRejectionIntegration } = require('./lib/integrations/on-unhandled-rejection')
+const {
+  onUncaughtExceptionIntegration
+} = require('./lib/integrations/on-uncaught-exception')
+const {
+  onUnhandledRejectionIntegration
+} = require('./lib/integrations/on-unhandled-rejection')
 
 module.exports = {
   addEventProcessor,

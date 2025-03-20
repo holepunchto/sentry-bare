@@ -11,7 +11,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "standard"
+    "test": "prettier . --check"
   },
   "repository": {
     "type": "git",
@@ -24,13 +24,14 @@
   },
   "homepage": "https://github.com/holepunchto/sentry-bare#readme",
   "dependencies": {
-    "@sentry/core": "8.28.0",
-    "@sentry/utils": "8.28.0",
+    "@sentry/core": "^8.28.0",
+    "@sentry/utils": "^8.28.0",
     "bare-abort": "^2.0.9",
-    "bare-fetch": "^1.2.0",
+    "bare-fetch": "^2.0.0",
     "bare-os": "^3.0.0"
   },
   "devDependencies": {
-    "standard": "^17.1.0"
+    "prettier": "^3.5.3",
+    "prettier-config-standard": "^7.0.0"
   }
 }
