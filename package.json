@@ -32,6 +32,6 @@
   },
   "devDependencies": {
     "prettier": "^3.5.3",
-    "prettier-config-standard": "^7.0.0"
+    "prettier-config-holepunch": "^2.0.0"
   }
 }
