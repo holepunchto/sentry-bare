@@ -25,7 +25,6 @@
   "homepage": "https://github.com/holepunchto/sentry-bare#readme",
   "dependencies": {
     "@sentry/core": "^9.7.0",
-    "@sentry/utils": "^8.28.0",
     "bare-abort": "^2.0.9",
     "bare-fetch": "^2.0.0",
     "bare-os": "^3.0.0"
