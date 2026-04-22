@@ -32,6 +32,8 @@
     "bare-os": "^3.0.0"
   },
   "devDependencies": {
+    "bare-http1": "^4.5.6",
+    "brittle": "^3.19.1",
     "lunte": "^1.6.0",
     "prettier": "^3.5.3",
     "prettier-config-holepunch": "^2.0.0"
